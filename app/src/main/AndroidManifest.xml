@@ -65,10 +65,7 @@
             android:name=".VehicleRentingActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".DriverLoginRegisterActivity"
-            android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
 
 
         <activity
