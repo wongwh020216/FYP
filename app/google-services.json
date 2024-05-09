@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "695393052760",
+    "firebase_url": "https://resident-application-6dcff-default-rtdb.firebaseio.com",
+    "project_id": "resident-application-6dcff",
+    "storage_bucket": "resident-application-6dcff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695393052760:android:277e0af6ff34e5370a422d",
+        "android_client_info": {
+          "package_name": "com.example.residentapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrk3K2RGL0n7ATttl0B8c9saVeEr-STDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

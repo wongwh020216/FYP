@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacilityBookingActivity">
+
+    <TextView
+        android:id="@+id/dFacilityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        />
+
+    <ImageView
+        android:id="@+id/dFacilityImg"
+        android:layout_width="600dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Hours" />
+
+    <Spinner
+        android:id="@+id/spinner_hours"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="160dp" />
+
+    <Button
+        android:id="@+id/facility_renting_date_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/spinner_hours"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:text="Choose.." />
+
+    <TextView
+        android:id="@+id/facility_renting_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:hint="Date"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="410dp"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/facility_renting_time_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/facility_renting_date_button"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:text="Choose.." />
+
+    <TextView
+        android:id="@+id/facility_renting_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:hint="Time" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="470dp"
+        android:background="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="535dp"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/confirm_facility_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/facility_renting_time"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/button_background_confrim"
+        android:text="Confirm"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>

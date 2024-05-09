@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmergencyServicesActivity">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/light_gray"
+        app:menu="@menu/navigation_bar" />
+
+    <Button
+        android:id="@+id/police_button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/circle_button"
+        android:layout_marginTop="100dp"
+         />
+
+    <Button
+        android:id="@+id/ambulance_button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/circle_button"
+        android:layout_marginTop="275dp"
+         />
+
+    <Button
+        android:id="@+id/fire_button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/circle_button"
+         />
+
+    <TextView
+        android:id="@+id/police_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/ambulance_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/police_number"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/fire_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ambulance_number"
+        android:text="TextView"
+        android:visibility="invisible"
+ />
+
+    <Button
+        android:id="@+id/more_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:text="More..." />
+
+
+</RelativeLayout>

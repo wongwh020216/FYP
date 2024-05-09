@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Resident Application</string>
+    <string name="title_activity_drivers_map">DriversMapActivity</string>
+    <string name="title_activity_passengers_maps">PassengersMapsActivity</string>
+</resources>

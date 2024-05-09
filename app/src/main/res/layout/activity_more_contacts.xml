@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoreContactsActivity">
+
+    <!-- Contact Name EditText -->
+    <EditText
+        android:id="@+id/contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="40dp"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Name"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <!-- Phone Number EditText -->
+    <EditText
+        android:id="@+id/add_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Phone Number"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/add_button"
+        android:layout_marginTop="20dp" />
+
+    <!-- Add Button -->
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/add_contact"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/button_background_confrim"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</RelativeLayout>
